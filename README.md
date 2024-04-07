@@ -37,3 +37,6 @@
 
 4. **dotenv：**
    - 从环境变量文件中加载环境变量，用于配置应用程序所需的环境变量。
+
+## 整体流程
+<img width="2055" alt="image" src="https://github.com/MyJoy1/myAPI/assets/91833139/e7b3f968-c0e0-48a1-a94b-ff9e87c30c93">
