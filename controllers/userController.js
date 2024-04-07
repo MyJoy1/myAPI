@@ -53,7 +53,7 @@ const loginUser = asyncHandler(async (req, res) => {
         const accessToken = jwt.sign({
            user: {
             username: user.username,
-            emial: user.email,
+            email: user.email,
             id: user.id
            },
         }, 
@@ -88,7 +88,7 @@ const logoutUser = asyncHandler(async (req, res) => {
     if(addTokenToBlackList) {
         res.status(200).json({
             code: 200,
-            messgae: `用户：${req.user.username}，成功退出登录！`
+            message: `用户：${req.user.username}，成功退出登录！`
         })
     } else {
         res.status(500);
